@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grades page</title>
+    <style>
+        body {
+            background-color: lemonchiffon;
+        }
+        
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        #main {
+            text-align: center;
+            width: 600px;
+            height: 246px;
+            margin: 19px auto;
+            padding: 13%;
+            border: 2px solid burlywood;
+            background-color: antiquewhite;
+            border-radius: 73px;
+        }
+        
+        p {
+            padding: 21px;
+            font-size: 28px;
+            font-weight: bold;
+            color: brown;
+        }
+        
+        #first,
+        #last,
+        #grade {
+            padding: 1px;
+            color: darkblue;
+        }
+        
+        #grade {
+            padding: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <p id="data">well done <span id="first">first name </span> <span id="last">last name</span>
+        </p>
+        <p>your grades <span id="grade">grades</span></p>
+    </div>
+    <script src="cookieFun.js"></script>
+    <script>
+        document.getElementById("grade").innerText = getCookie("grade");
+        console.log(getCookie("grade"))
+        document.getElementById("first").innerText = getCookie("firstname");
+        document.getElementById("last").innerText = getCookie("lastname");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="time">
+            <input id="minutes" type="text ">
+            <span style="font-size: 26px;"> :
+        </span>
+            <input id="seconds" type="text ">
+        </div>
+        <div id="mainWrapper">
+
+            <div id="questionHead"> questionHead</div>
+            <div id="answers">
+                <div id="answer1">
+                    <input type="radio" name="answer" value="0">
+                    <span id="answerSpan1">answer1</span>
+                </div>
+                <div id="answer2">
+                    <input type="radio" name="answer" value="1">
+                    <span id="answerSpan2">answer2</span>
+                </div>
+                <div id="answer3">
+                    <input type="radio" name="answer" value="2">
+                    <span id="answerSpan3">answer3</span>
+                </div>
+                <div id="answer4">
+
+                    <input type="radio" name="answer" value="3">
+                    <span id="answerSpan4">answer4</span>
+                </div>
+
+            </div>
+        </div>
+        <div id="router">
+            <input type="button" value="previous">
+            <span id="qNum">1</span>
+            <input type="button" value="next">
+            <input type="button" value="mark" id="markbtn">
+        </div>
+        <button id="Submit"> Submit</button>
+        <div id="markList"></div>
+    </div>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="cooKieFun.js"></script>
+    <script src="project.js"></script>
+</body>
+
+</html>

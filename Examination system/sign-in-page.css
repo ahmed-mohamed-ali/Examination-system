@@ -1,0 +1,97 @@
+body {
+    background-image: url("sign_in_page.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container2 {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(223, 57, 6, 0.3);
+    overflow: hidden;
+    max-width: 100%;
+    border: 8px solid brown;
+    background: rgba(0, 0, 0, 0.63);
+    align-items: center;
+}
+
+.header h3 {
+    border-bottom: 10px solid brown;
+    color: rgb(219, 114, 16) font-size: larger;
+    padding: 20px 40px;
+    margin: 0;
+}
+
+.sign-in-form {
+    padding: 5px 5px;
+}
+
+.form-control2 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.form-control2 label {
+    display: inline-block;
+    margin-bottom: 0px;
+    color: rgb(219, 114, 16);
+    font-size: x-large;
+}
+
+.form-control2 input {
+    border: 2px solid #b6a7a7;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.form-control2 input:focus {
+    outline: 0;
+    border-color: #777;
+}
+
+.form-control2.success input {
+    border-color: #2ecc71;
+}
+
+.form-control2.error input {
+    border-color: #e74c3c;
+    font-weight: blod;
+}
+
+.form-control2 small {
+    color: #e74c3c;
+    font-weight: blod;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-control2.error small {
+    visibility: visible;
+}
+
+.form-control2 button {
+    background-color: rgb(165, 119, 34);
+    border: 2px solid rgb(165, 119, 34);
+    border-radius: 4px;
+    color: rgb(219, 114, 16);
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 80%;
+    align-items: center;
+}

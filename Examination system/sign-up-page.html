@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>
+        sign up
+    </title>
+    <link rel="stylesheet" href="sign-up-page.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Registration Exam</h2>
+        </div>
+        <form id="form" class="form" onsubmit="return false">
+            <div class="form-control">
+                <label for="username">First name</label>
+                <input type="text" placeholder="first name" id="first name" />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Last name</label>
+                <input type="text" placeholder="last name" id="last name" />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="text" placeholder="E-mail" id="email" />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input type="password" placeholder="Password" id="password" />
+
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Password check</label>
+                <input type="password" placeholder="Password two" id="password2" />
+
+                <small>Error message</small>
+            </div>
+            <button onclick="Validate()">Sign Up</button>
+        </form>
+    </div>
+    <script src="sign-up-in-pages.js"></script>
+</body>
+
+</html>
